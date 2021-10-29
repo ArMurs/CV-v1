@@ -1,0 +1,205 @@
+body {
+	background-color : #FFFFFF ;
+	font-family : Noto sans, sans-serif ;
+}
+
+
+
+
+
+
+#titre{
+	display : block;
+	width : 1000px ;
+	height: 200px ;
+	background-color : #018246 ;
+	color : #FFFFFF ;
+}
+
+#oreille {
+
+	display : inline-block ;
+	width : 490px;
+	height : 200px;
+}
+
+#nom {
+	display : block ;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 60;
+
+}
+
+#accroche{
+	display : block ;
+	height : 80px;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 40;
+	font-variant: small-caps;
+
+}
+
+
+#resume {
+	display : block ;
+	margin : auto;
+	margin-right: 20px;
+	margin-left: 50px;
+
+	font-size: 20;
+	text-align: right;
+	font-style: italic;
+}
+
+
+
+
+
+#cote{
+	display : block;
+	float:  left;
+	width : 300px ;
+	height: 1215px ;
+
+	background-color : #575757 ;
+}
+
+img {
+	display: block;
+	margin: 25px;
+	margin-bottom: 10px;
+	width : 250px ;
+	border-radius: 50%;
+}
+
+#information {
+	display: block;
+	margin: 5px ;
+	padding-left: 20px ;
+
+	font-size: 18;
+	color: #FFFFFF;
+}
+
+#competence {
+	display : block;
+	width : 260px ;
+	margin: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+	font-size: 18;
+	color: #FFFFFF;
+}
+
+#barre {
+	display : block ;
+	margin-left: auto;
+	margin-right : auto;
+	margin-bottom: 10px;
+
+	width : 200px ;
+	height: 5px;
+
+	background-color: #FFFFFF;
+	color : #FFFFFF ;
+	border-radius: 15px;
+
+}
+.niveau {
+	height: 5px;
+	background-color: #05DA90;
+	border-radius: 15px;
+}
+
+.java {
+	width : 80% ;
+}
+
+.sql {
+	width : 80%;
+}
+
+.html {
+	width : 60%;
+}
+
+.javascript {
+	width : 60%;
+}
+
+.python {
+	width : 50%;
+}
+
+.anglais {
+	width : 80%;
+}
+
+.espagnol {
+	width : 20%;
+}
+
+
+
+
+
+
+
+
+#contenu{
+	display : block ;
+	float:  left;	
+	width : 700px ;
+	height: 1215px ;
+	background-color : #FFFFFF ;
+}
+
+
+.rubrique{
+	padding-left: 30px ;
+	padding-top: 20px ;
+
+	font-size: 30;
+}
+
+.gauche {
+	color : #05DA90;
+}
+.droite{
+	color : #018246 ;
+}
+
+
+#item {
+	display : block ;
+	margin: 15px;
+	width : 680px ; 
+	font-size: 18;
+
+}
+
+#date {
+	display : inline-block;
+	width : 150px ;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+#experience {
+	display: inline-block;
+	width : 500px;
+	text-align: left;
+}
+
+#commentaire {
+	display: block;
+	font-size: 16;
+	padding-left: 40px;
+	text-align: left;
+	font-style: italic;
+
+}
