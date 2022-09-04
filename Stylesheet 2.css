@@ -66,7 +66,7 @@ body {
 	background-color : #575757 ;
 }
 
-img {
+#photo {
 	display: block;
 	margin: 25px;
 	margin-bottom: 10px;
@@ -74,10 +74,19 @@ img {
 	border-radius: 50%;
 }
 
+#logo {
+	display: inline-flex;
+	margin-right: 5px;
+	height : 20px ;
+	filter : invert();
+}
+
 #information {
-	display: block;
+	display: inline-flex;
+	align-items: center;
 	margin: 5px ;
-	padding-left: 20px ;
+	margin-left: 15px;
+	padding-left: 0px ;
 
 	font-size: 18;
 	color: #FFFFFF;
@@ -87,8 +96,8 @@ img {
 	display : block;
 	width : 260px ;
 	margin: 10px;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
 
 	font-size: 18;
 	color: #FFFFFF;
@@ -115,11 +124,15 @@ img {
 }
 
 .java {
-	width : 80% ;
+	width : 90% ;
 }
 
 .sql {
-	width : 80%;
+	width : 90%;
+}
+
+.c {
+	width : 60%;
 }
 
 .html {
@@ -131,7 +144,7 @@ img {
 }
 
 .python {
-	width : 50%;
+	width : 60%;
 }
 
 .anglais {
@@ -160,7 +173,7 @@ img {
 
 .rubrique{
 	padding-left: 30px ;
-	padding-top: 20px ;
+	padding-top: 10px ;
 
 	font-size: 30;
 }
